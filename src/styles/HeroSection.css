@@ -1,0 +1,42 @@
+.color-rect {
+  position: absolute;
+  width: 3vw;
+  height: 15vh;
+  left: 0;
+}
+
+.sunsetOrange {
+  top: 28vh;
+  background: #ff4954;
+}
+.cornflowerBlue {
+  top: 44vh;
+  background: #634bfa;
+}
+.sunglow {
+  top: 60vh;
+  background: #ffe02d;
+}
+.tuna {
+  top: 76vh;
+  background: #2a2733;
+}
+
+@media screen and (max-width: 768px) {
+  .sunsetOrange {
+    top: 20vh;
+    background: #ff4954;
+  }
+  .cornflowerBlue {
+    top: 36vh;
+    background: #634bfa;
+  }
+  .sunglow {
+    top: 52vh;
+    background: #ffe02d;
+  }
+  .tuna {
+    top: 68vh;
+    background: #2a2733;
+  }
+}
